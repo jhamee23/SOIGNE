@@ -1,0 +1,514 @@
+    #lead-banner {
+    background: url('images/leadbanner1.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.layer {
+    position: absolute;
+    background-color: pink;
+    opacity: .6;
+    width: 100%;
+    height: 100%;
+}
+
+
+@font-face {
+    font-family: "special-valentine";
+    src: url(Special_Valentine.ttf);
+}
+
+#lead-banner h1 {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 266.31px;
+    color: white;
+    font-family: "special-valentine";
+    border-collapse: collapse;
+    z-index: 20;
+}
+
+#lead-banner h2 {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    z-index: 50;
+}
+
+.arrow-down {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+    width: 10%;
+    height: 10%;
+    z-index: 50;
+  
+}
+.pic1 img{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width:  450px;
+}
+
+.pic1 {
+  position: relative;
+  width: 50%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 66.9%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.pic1:hover .overlay {
+  opacity: 1;
+}
+.title {
+  color: #c93756;
+  font-family: "special-valentine";
+  font-size: 60px;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+
+}
+.content{
+    color: #c93756;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 14px;
+     text-align: justify;
+     margin-top: 40%;
+     margin-left: 50px;
+     margin-right: 50px;
+     line-height: 150%;
+     text-transform: uppercase;
+ }
+ .button1 a{
+        font-family: 'Montserrat', sans-serif;
+        top: 40px;
+        text-transform: uppercase;
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        background-color: #c93756;
+        border: 1px solid #f08f90;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    #button1 {
+
+        text-align: center;
+    }
+
+.pic2 img{
+    display: flex;
+    flex-wrap: wrap;
+    height: 548px;
+    width:  450px;
+}
+.pic2 {
+  position: relative;
+  width: 50%;
+}
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 66.9%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #c93756;
+}
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.pic2:hover .overlay1 {
+  opacity: 1;
+}
+.title2 {
+  color: #fff;
+  font-family: "special-valentine";
+  font-size: 80px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.content2{
+    color: #fff;
+    text-transform: uppercase;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 15px;
+     text-align: left;
+     margin-top: 40%;
+     margin-left: 90px;
+     margin-right: 90px;
+     line-height: 140%;
+ }
+ .button2 a{
+        font-family: 'Montserrat', sans-serif;
+        top: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
+        position: relative;
+        color: #c93756;
+        text-decoration: none;
+        background-color: #fff;
+        padding: 10px 120px;
+        font-size: 12px;
+    }
+    #button2 {
+
+        text-align: center;
+    }
+
+.pic3 li img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -948px;
+    margin-left: 450px;
+    height: 400px;
+    width:  450px;
+}
+.pic4 li img{
+     display: flex;
+    margin-left: 450px;
+    height: 274px;
+    width: 450px;
+}
+.pic5 li img{
+     display: flex;
+    margin-left: 450px;
+    height: 274px;
+    width: 450px;
+}
+.pic8 li img{
+    display: flex;
+    margin-left: 900px;
+    margin-top: -950px;
+    height: 674px;
+    width: 450px;
+    position: relative;
+    z-index:-1;
+}
+.pic8 h1{
+    color: #fff;
+    font-family: "special-valentine";
+    font-size:90px;
+    border: 2px solid #fff;
+    position: absolute;
+    z-index: 5;
+    margin-left: 1040px;
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+.pic8 p{
+    text-align: left;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    display: absolute;
+
+}
+.pic7 li img{
+     display: flex;
+    margin-left: 900px;
+    height: 275px;
+    width: 450px;
+}
+
+.nav ul {
+        list-style: none;
+        background-color: #c93756;
+        text-align: center;
+        padding: 0;
+        box-sizing: border-box;
+        max-width: 101.2%;
+    }
+
+    .nav li {
+        display: flex;
+        flex-wrap: nowrap;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2em;
+        border-bottom: 1px solid #888;
+        max-width: 447px;
+    }
+     .nav .nav-title {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        transition: .3s background-color;
+    }
+
+    .nav li:hover {
+        background-color: #f08f90;
+         transition: .3s background-color;
+    }
+ .nav .nav-title.active {
+        background-color: #fff;
+        color: #444;
+        cursor: default;
+        color: #c93756;
+        text-align: left;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    @media screen and (min-width: 600px) {
+        .nav li {
+            width: 33.3333%;
+            border-bottom: none;
+            line-height: 30px;
+            font-size: 1.4em;
+        }
+
+        /* Option 1 - Display Inline */
+        .nav li {
+             display: inline-block;
+            box-sizing: content-box;
+        }
+    
+#aboutContainer {
+        background: url('images/bannerwhite.jpg') no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+    #aboutContainer img {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #followContainer {
+        background: url('images/bannerwhite.jpg') no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        display: none;
+    }
+
+        #skillsContainer {
+        background: url('images/bannerwhite.jpg') no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        display: none;
+    }
+
+    #section3 h3 {
+        font-family: "special-valentine";
+        color: #c93756;
+        text-align: center;
+        font-size: 108px;
+    }
+      #section3 h4 {
+        font-family: "special-valentine";
+        color: #c93756;
+        text-align: center;
+        font-size: 108px;
+        justify-content: center;
+        margin-top: 150px;
+             
+    }
+    #section3 h5 {
+        font-family: "special-valentine";
+        color: #c93756;
+        text-align: center;
+        font-size: 108px;
+        margin-top: 150px;
+             
+    }
+
+    #aboutContainer p {
+        color: #c93756;
+        text-align: left;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 400px;
+        margin-right: 400px;
+        line-height: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    #skillsContainer p {
+        color: #c93756;
+        text-align: left;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+         margin-left: 400px;
+        margin-right: 400px;
+        line-height: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    #followContainer p {
+        color: #c93756;
+        text-align: left;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+         margin-left: 400px;
+        margin-right: 400px;
+        line-height: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    #section4 {
+        background: url('images/banner3.jpg') no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100vx;
+        height: 100vh;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .mailbox {
+        width: 40%;
+        height: 90%;
+        background-color: #c93756;
+        z-index: 20;
+    }
+
+
+    form {
+        text-align: center;
+        margin-left: 16px;
+        margin-top: 25px;
+    }
+    form img {
+        margin-top: 20px;
+    }
+    .h4 {
+        margin-top: 10px;
+        font-family: "special-valentine";
+        color: #ffffff;
+        font-size: 119px;
+    }
+    input {
+        display: inline-block;
+        width: 85%;
+        margin-left: -5px;
+        margin-right: 11px;
+        margin-top: 20px;
+        font-size: 18px;
+        padding: 5px;
+    }
+    ::placeholder {
+        font-family: 'Montserrat', sans-serif;
+        color: #c93756;
+        opacity: 50;
+        font-style: bold;
+
+    }
+
+    input[type-text] {
+        width: 100%;
+        border: 2px solid #aaa;
+        border-radius: 0px;
+        outline: none;
+        box-sizing: border-box;
+        transition: .3s;
+    }
+
+    input[type-email] {
+        width: 100%;
+        border: 2px solid #aaa;
+        border-radius: 0px;
+        outline: none;
+        box-sizing: border-box;
+        transition: .3s;
+    }
+
+    textarea {
+        color: #c93756;
+        width: 88%;
+        font-size: 18px;
+        border: 2px solid #aaa;
+        border-radius: 0px;
+        outline: none;
+        padding: 5px 10px;
+        margin-top: 30px;
+        margin-right: 10px;
+        margin-left: 0px;
+        box-sizing: border-box;
+        transition: .3s;
+    }
+    #button a {
+        font-family: 'Montserrat', sans-serif;
+        top: 20px;
+        text-transform: uppercase;
+        position: relative;
+        color: #ffffff;
+        text-decoration: none;
+        background-color: #f08f90;
+        border: 1px solid #f08f90;
+        padding: 8px 40px;
+        font-size: 18px;
+        display: inline-block;
+        position: center;
+        margin-top: 10px;
+    }
+    #button {
+
+        text-align: center;
+    }
+
+    .footer p {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        padding: 20px 20px;
+        text-align: center;
+        color: #ab2c41;
+    }
